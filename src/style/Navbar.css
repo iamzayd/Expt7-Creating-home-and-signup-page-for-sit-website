@@ -1,0 +1,36 @@
+body, html {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    position: sticky;
+    top:0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1e1e1e; 
+    color: white;
+    padding: 10px 20px;
+    font-size: large;
+}
+
+.nav-logo-img {
+    width: 100px; 
+    height: 80px; 
+    margin-left: 20px;
+}
+  
+.nav-logo img {
+    width: 350px; 
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    margin-right: 40px;
+}
+
+.nav-links a:hover {
+    color: #a6a2a2;
+}
